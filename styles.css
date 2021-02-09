@@ -1,0 +1,64 @@
+html{
+    background-image: url(Simple-Blue-White-Background-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    flex: 0;
+    padding: 20px;
+    text-align: center;
+    font-style: initial;
+    font-size: large;
+    border-bottom: 1px solid darkolivegreen;
+}
+.header-link:hover{
+    color:olive;
+}
+body{
+    margin: 0;    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;}
+main{
+    margin: 0 auto;
+    display: flex;
+    flex-grow: 1;
+    width: 1000px;
+    padding-top: 30px;
+}
+.main-section {
+    flex-grow: 1;
+    padding-left: 30px;
+}
+.aside {
+    width: 300px;
+    flex: 0;
+}
+.title{
+    text-align: center;
+}
+.subtitle{
+    border: 4px double dimgrey;
+    margin-top: 5px;
+    padding-left: 10px;
+    color: darkmagenta;
+    font-family: 'Montserrat', sans-serif;
+}
+.img-title{
+    padding: 5px;
+    border:1px solid black;
+    text-align: center;
+}
+.header-link{
+    color:darkmagenta;
+}
+.link{
+color:mediumslateblue;
+}
+footer{
+    border-top: 1px solid darkmagenta;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
